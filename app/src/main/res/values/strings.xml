@@ -3,4 +3,10 @@
     <string name="inputHere">Enter your card number:</string>
     <string name="hintText">Enter card number here</string>
     <string name="checkButton">Check</string>
+    <string name="success_string">Success</string>
+    <string name="try_again">Try Again</string>
+    <string name="success_image_content_desc">Happy Image</string>
+    <string name="message_home_alert">Please input a text</string>
+    <string name="alert_positive_button">OK</string>
+    <string name="failed_string">Failed</string>
 </resources>

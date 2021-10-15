@@ -8,6 +8,7 @@
     android:background="@color/light_brown_primary"
     tools:context=".HomeScreen">
 
+
     <TextView
         android:id="@+id/InputHere"
         android:layout_width="wrap_content"
@@ -16,27 +17,26 @@
         android:layout_marginBottom="593dp"
         android:text="@string/inputHere"
         android:textColor="@color/black"
-        android:textSize="25sp"
+        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintHorizontal_bias="0.109"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/txtViewInputCardNo"
         android:layout_width="361dp"
         android:layout_height="60dp"
         android:layout_marginTop="34dp"
-        android:hint="@string/hintText"
-        android:textColorHint="@android:color/secondary_text_dark_nodisable"
-        android:textSize="22sp"
+        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/InputHere"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="TextContrastCheck" />
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btnCheck"
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:text="@string/checkButton"
         android:textColor="#000000"
-        app:backgroundTint="@color/deep_brown_secondy"
+        app:backgroundTint="@color/deep_brown_secondry"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

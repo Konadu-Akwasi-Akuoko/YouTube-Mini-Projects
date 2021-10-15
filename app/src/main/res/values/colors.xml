@@ -9,7 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     
     <!-- My own colours. -->
-    <color name="light_brown_primary">#FFC89F</color>
+    <color name="light_brown_primary">#F2D6C1</color>
     <color name="light_green_tetiary">#E4F56B</color>
-    <color name="deep_brown_secondy">#B95D3A</color>
+    <color name="deep_brown_secondry">#E5BAA2</color>
+    <color name="grey">#BBBBBB</color>
 </resources>

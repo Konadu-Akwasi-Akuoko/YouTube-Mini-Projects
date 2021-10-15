@@ -12,26 +12,41 @@
         android:id="@+id/imageView"
         android:layout_width="323dp"
         android:layout_height="444dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        android:contentDescription="@string/failed_string"
+        app:layout_constraintBottom_toTopOf="@+id/BTFail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.307"
-        app:srcCompat="@drawable/undraw_feeling_blue_4b7q"
-        android:contentDescription="@string/failed_string" />
+        app:srcCompat="@drawable/undraw_feeling_blue_4b7q" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/BTFail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/try_again"
         android:textColor="#000000"
-        app:backgroundTint="@color/deep_brown_secondy"
+        app:backgroundTint="@color/deep_brown_secondry"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="58dp"
+        android:text="@string/failed_string"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/BTFail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.84"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

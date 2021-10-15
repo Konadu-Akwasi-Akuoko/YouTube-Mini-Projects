@@ -27,20 +27,20 @@
         android:fontFamily="sans-serif-medium"
         android:text="@string/success_string"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/BTtryAgain"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.228" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/BTtryAgain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="116dp"
         android:text="@string/try_again"
         android:textColor="#000000"
-        app:backgroundTint="@color/deep_brown_secondy"
+        app:backgroundTint="@color/deep_brown_secondry"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
